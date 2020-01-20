@@ -11,17 +11,17 @@
 
 # Example analysis for two interacting oscillators 
 
-This analysis is based on timeseries gathered from the heart (an ECG signal) and the lungs (with a respiration belt). The heart and the lungs can then be viewed as two oscillators, and we want to investigate their interaction by using wavelet phase coherence and dynamical bayesian inference. 
+This analysis is based on time-series gathered from the heart (an ECG signal) and the lungs (with a respiration belt). The heart and the lungs can then be viewed as two oscillators, and we want to investigate their interaction by using wavelet phase coherence and dynamical bayesian inference. 
 
 ## Finding the frequency interval for each oscillator
+
 The first step of the analysis is to find the frequency interval for each oscillator in order to find at what frequencies they oscillate at. This can be done by ridge extraction. 
 
-First start MODA. In the gui press "Ridge extraction and filtering". In the top left corner press file > load time series. Load one of the signals (Resp.mat or ECG.mat). Put in the sampling frequency when prompted (250Hz), and then select coloumn wise or row wise depending on the data (row wise).
+First start MODA. In the GUI press "Ridge extraction and filtering". In the top left corner press file > load time series. Load one of the signals (Resp.mat or ECG.mat). Put in the sampling frequency when prompted (250Hz), and then select coloumn wise or row wise depending on the data (row wise).
 
 In the right corner there are a box called "Transform Options", here you specify the minimum and maximum frequency for the wavelet transform. For ECG choose from 0.5Hz to 2Hz, and then press "calculate transform" in the bottom right corner. Then in the box called "Band Marking" press mark region. Make sure your marked region includes the whole frequency region where the amplitudes are high. After you have marked your region press the button "Add marked region". When you have done this you can press "Extract ridges" at the bottom right corner. Save the data as a mat file. The ridge is the Ridge_frequency in the saved matlab structure.
 
 ![Picture illustrating ridge extraction, and how to choose the the marked region. From MODA.](/docs/images/Ridgeextractionregion.png)
-
 
 
 ![Picture illustrating ridge extraction for ECG. From MODA.](/docs/images/ECGridge.png)
@@ -44,9 +44,10 @@ Respiration: 0.1354Hz to 0.2875Hz
 
 
 ## Wavelet phase coherence
+
 Note: you need to make a matrix containing the signals you want to find the wavelet phase coherence between, so make one with the ridge of the ECG and the respiration, and one with the ridge of ECG and ridge of respiration.
 
-In the MODA gui press "Wavelet Phase Coherence", and then load the timeseries. The frequency range you choose for this analysis should include the frequency intervals of both oscillators. Hence, an appropiate choice could be 0.12Hz to 1.3Hz.
+In the MODA GUI press "Wavelet Phase Coherence", and then load the timeseries. The frequency range you choose for this analysis should include the frequency intervals of both oscillators. Hence, an appropiate choice could be 0.12Hz to 1.3Hz.
 
 Coherence should always be tested for significance, and therefore we use surrogates (see the section on surrogates in the MODA user manual). In this example we have used 30 Fourier Transform surrogates.
 
@@ -59,7 +60,7 @@ High coherence can be seen between the two ridges from 1Hz to 1.3Hz. This is pro
 
 ## Dynamical bayesian inference
 
-Now press "Dynamical beyesian inference" in the MODA gui, and load the matrix with two signals. 
+Now press "Dynamical beyesian inference" in the MODA GUI, and load the matrix with two signals. 
 
 The frequency ranges are now specified for each oscillator. In the box "Freq range 1" write the frequency interval for the first signal (0.8 to 1.3Hz for ECG), and in freq range 2 write the frequency interval for the second signal (0.13 to 0.29Hz for respiration). Then choose a number of surrogates (we have used 50 in this example), and press "Add parameter set". After this you can press "Calculate". 
 
