@@ -37,11 +37,19 @@ In the right corner there are a box called "Transform Options", here you specify
 
 ![Shows the structure saved from MODA.](/docs/images/Structure.png)
 
+*Screenshot showing the data structure saved from MODA.*
+
 ---
 
 Repeat for the respiration data, but do the wavelet transform from 0.5Hz to 0.6Hz.
 
+---
+
 ![Picture illustrating ridge extraction for respiration. From MODA.](/docs/images/Respridge.png)
+
+*Screenshot showing the result of ridge-extraction on the respiration signal.*
+
+---
 
 When you have done the ridge extraction you can find the frequency interval by using the data tips in "tools" when the figure is open, or you can use the max and min function in matlab for the array. 
 
@@ -50,7 +58,6 @@ The frequency intervals we obtained were:
 ECG: 0.8920Hz to 1.2820Hz
 
 Respiration: 0.1354Hz to 0.2875Hz
-
 
 ## Wavelet phase coherence
 
