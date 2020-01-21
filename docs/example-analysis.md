@@ -90,8 +90,16 @@ Now press "Dynamical beyesian inference" in the MODA GUI, and load the matrix wi
 
 The frequency ranges are now specified for each oscillator. In the box "Freq range 1" write the frequency interval for the first signal (0.8 to 1.3Hz for ECG), and in freq range 2 write the frequency interval for the second signal (0.13 to 0.29Hz for respiration). Then choose a number of surrogates (we have used 50 in this example), and press "Add parameter set". After this you can press "Calculate". 
 
+---
+
 ![Figure showing the dynamical bayesian inference in MODA, ECG ridge and respiration signal.](/docs/images/BayesianIHRResp.png)
+
+*Screenshot showing dynamical Bayesian inference in MODA, using the ECG ridge and respiration signal.*
+
+---
 
 ![Figure showing the dynamical bayesian inference in MODA, ECG ridge and respiration ridge.](/docs/images/BayesianIHRIRR.png)
 
+*Screenshot showing dynamical Bayesian inference in MODA, using the ECG ridge and respiration ridge.*
 
+---
