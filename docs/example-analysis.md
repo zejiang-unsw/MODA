@@ -27,12 +27,15 @@ In the right corner there are a box called "Transform Options", here you specify
 
 ![Picture illustrating ridge extraction, and how to choose the the marked region. From MODA.](/docs/images/Ridgeextractionregion.png)
 
+---
 
 ![Picture illustrating ridge extraction for ECG. From MODA.](/docs/images/ECGridge.png)
 
+---
 
 ![Shows the structure saved from MODA.](/docs/images/Structure.png)
 
+---
 
 Repeat for the respiration data, but do the wavelet transform from 0.5Hz to 0.6Hz.
 
