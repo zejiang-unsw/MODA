@@ -23,9 +23,9 @@ In the right corner there are a box called "Transform Options", here you specify
 
 ---
 
-**Screenshot illustrating ridge extraction, and how to choose the the marked region.**
-
 ![Picture illustrating ridge extraction, and how to choose the the marked region. From MODA.](/docs/images/Ridgeextractionregion.png)
+
+**Screenshot illustrating ridge extraction, and how to choose the the marked region.**
 
 ---
 
