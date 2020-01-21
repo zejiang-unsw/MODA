@@ -21,6 +21,8 @@ First start MODA. In the GUI press "Ridge extraction and filtering". In the top 
 
 In the right corner there are a box called "Transform Options", here you specify the minimum and maximum frequency for the wavelet transform. For ECG choose from 0.5Hz to 2Hz, and then press "calculate transform" in the bottom right corner. Then in the box called "Band Marking" press mark region. Make sure your marked region includes the whole frequency region where the amplitudes are high. After you have marked your region press the button "Add marked region". When you have done this you can press "Extract ridges" at the bottom right corner. Save the data as a mat file. The ridge is the Ridge_frequency in the saved matlab structure.
 
+**Screenshot illustrating ridge extraction, and how to choose the the marked region.**
+
 ![Picture illustrating ridge extraction, and how to choose the the marked region. From MODA.](/docs/images/Ridgeextractionregion.png)
 
 
