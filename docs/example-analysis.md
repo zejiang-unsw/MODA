@@ -67,9 +67,19 @@ In the MODA GUI press "Wavelet Phase Coherence", and then load the timeseries. T
 
 Coherence should always be tested for significance, and therefore we use surrogates (see the section on surrogates in the MODA user manual). In this example we have used 30 Fourier Transform surrogates.
 
+---
+
 ![Figure showing the Wavelet Phase Coherence in MODA, ECG ridge and respiration signal.](/docs/images/WPC.png)
 
+*Screenshot showing the wavelet phase coherence of the ECG ridge and respiration signal.*
+
+---
+
 ![Figure showing the Wavelet Phase Coherence in MODA, ECG ridge and respiration ridge.](/docs/images/WPCridges.png)
+
+*Screenshot showing the wavelet phase coherence of the ECG ridge and respiration ridge.*
+
+---
 
 High coherence can be seen between the two ridges from 1Hz to 1.3Hz. This is probably due to the respiration belt also measuring the heart rate. 
 
