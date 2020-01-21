@@ -6,7 +6,6 @@
   - [Finding the frequency interval for each oscillator](#finding-the-frequency-interval-for-each-oscillator)
   - [Wavelet phase coherence](#wavelet-phase-coherence)
   - [Dynamical Bayesian inference](#dynamical-bayesian-inference)
-  - [The coupling function can be viewed by clicking the dropdown in the bottom-left corner, and selecting "Coupling function".](#the-coupling-function-can-be-viewed-by-clicking-the-dropdown-in-the-bottom-left-corner-and-selecting-coupling-function)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -106,6 +105,7 @@ The frequency ranges are now specified for each oscillator. In the box "Freq ran
 ---
 
 The coupling function can be viewed by clicking the dropdown in the bottom-left corner, and selecting "Coupling function".
+
 ---
 
 ![Screenshot showing the coupling function with the ECG ridge and respiration signal.](/docs/images/CF_IHRIRR.png)
@@ -114,7 +114,7 @@ The coupling function can be viewed by clicking the dropdown in the bottom-left 
 
 ---
 
-![Screenshot showing the coupling function with the ECG ridge and respiration ridge.](/docs/images/CF_IHRIRR.png)
+![Screenshot showing the coupling function with the ECG ridge and respiration ridge.](/docs/images/CF_IHRResp.png)
 
 *Screenshot showing the coupling function with the ECG ridge and respiration ridge.*
 
