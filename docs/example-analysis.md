@@ -25,11 +25,13 @@ In the right corner there are a box called "Transform Options", here you specify
 
 ![Picture illustrating ridge extraction, and how to choose the the marked region. From MODA.](/docs/images/Ridgeextractionregion.png)
 
-**Screenshot illustrating ridge extraction, and how to choose the the marked region.**
+*Screenshot showing ridge extraction, and how to choose the the marked region.*
 
 ---
 
 ![Picture illustrating ridge extraction for ECG. From MODA.](/docs/images/ECGridge.png)
+
+*Screenshot showing the result of ridge-extraction on the ECG signal.*
 
 ---
 
